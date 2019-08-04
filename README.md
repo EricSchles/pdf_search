@@ -8,6 +8,11 @@ This is a generalized search tool built on top of elastic search.  It will inges
 
 `python run.py` from the root directory of this repo
 
-`sudo docker build -t ericschles/elasticpython:v0.0.1 .`
+To build the image:
+
+`sudo docker build -t [docker id from docker hub]/elasticpython:v0.0.1 .`
+
+To run the image as is:
+`sudo docker pull ericschles/elasticpython:v0.0.1`
 
 `sudo docker run -d -p 5000:5000 ericschles/elasticpython:v0.0.1 --name example_run`
